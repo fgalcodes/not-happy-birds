@@ -34,7 +34,7 @@ public class CanonRotation : MonoBehaviour
 
         if(Input.GetMouseButton(0))
         {
-            ProjectileSpeed += Time.deltaTime * 4; //cada frame s'ha de fer 4 cops més gran
+            ProjectileSpeed += Time.deltaTime * 4;  //cada frame s'ha de fer 4 cops més gran
         }
         if(Input.GetMouseButtonUp(0))
         {
